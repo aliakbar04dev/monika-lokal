@@ -1,0 +1,3 @@
+Flow langganan 2 paket
+- Selesai paket ta update di t_user kode_user_level = MULV003 dan expire_date
+- Langganan paket fa update di t_user kode_user_level = MULV005 (ultimate) dan expire_date lalu kode_user_level_tmp = MULV004 dan expire_date_tmp 

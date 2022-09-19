@@ -1,0 +1,12 @@
+CRITICAL - 2021-01-13 10:21:26 --> CodeIgniter\CodeIgniter::tryToRouteIt(): Failed opening required '/home/webdev/backend/app/Config/Routes.php' (include_path='.:/usr/share/pear:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 10:27:32 --> CodeIgniter\CodeIgniter::tryToRouteIt(): Failed opening required '/home/webdev/backend/app/Config/Routes.php' (include_path='.:/usr/share/pear:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 10:27:35 --> CodeIgniter\CodeIgniter::tryToRouteIt(): Failed opening required '/home/webdev/backend/app/Config/Routes.php' (include_path='.:/usr/share/pear:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 10:28:05 --> CodeIgniter\CodeIgniter::tryToRouteIt(): Failed opening required '/home/webdev/backend/app/Config/Routes.php' (include_path='.:/usr/share/pear:/usr/share/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

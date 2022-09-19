@@ -1,0 +1,110 @@
+CRITICAL - 2022-03-23 01:50:57 --> required|is_unique is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 01:52:51 --> required|is_unique is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 01:58:10 -->   is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:11:34 -->   is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:11:38 -->   is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:16:19 --> required| is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:49:08 --> required| is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:03:03 -->  is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:03:06 -->  is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(215): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:05:30 --> $is_uniqueUsername is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(216): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:06:30 -->  is not a valid rule.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Account/Usercontroller.php(216): CodeIgniter\Controller->validate()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Usercontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

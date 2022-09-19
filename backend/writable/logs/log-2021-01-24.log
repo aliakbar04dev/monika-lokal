@@ -1,0 +1,32 @@
+CRITICAL - 2021-01-24 20:12:11 --> Class 'App\Models\Media\VideomedModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomedcontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media\Videomedcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-24 20:12:21 --> Class 'App\Models\Media\VideomedModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomedcontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media\Videomedcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-24 20:35:48 --> Could not move file php3soNcD to public/assets/files/tabel_sakti/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php3soNcD', 'public/assets/f...', '')
+#1 /home/webdev/backend/app/Controllers/Features/Tsakticontroller.php(181): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/f...', 'TSAK001.xlsx')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->simpandata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-24 23:47:16 --> Table 'panen_saham.m_fitur_paket' doesn't exist
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Package/FeatureModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Package/Featurecontroller.php(43): App\Models\Package\FeatureModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Package\Featurecontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Package\Featurecontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

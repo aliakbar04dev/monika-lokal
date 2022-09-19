@@ -1,0 +1,20 @@
+CRITICAL - 2021-07-31 08:56:11 --> Undefined property: stdClass::$gambar
+#0 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 56, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 10:35:38 --> Undefined variable: post
+#0 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 184, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->simpandata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 10:36:12 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->simpandata()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

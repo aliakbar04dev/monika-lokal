@@ -1,0 +1,30 @@
+CRITICAL - 2022-02-06 00:13:40 --> Class 'App\Controllers\Ultimate\CloseModel' not found
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Closeposcontroller->simpandata()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 08:01:34 --> unlink(public/assets/files/tabel_sakti/TSAK0402220210.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 08:51:08 --> unlink(public/assets/files/tabel_sakti/TSAK0302220225.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 08:51:12 --> unlink(public/assets/files/tabel_sakti/TSAK0402220210.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

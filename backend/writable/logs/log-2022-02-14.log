@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-14 09:11:55 --> Class 'App\Models\Ultimate\CopyactModel' not found
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->ajax_list()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 09:27:15 --> Class 'App\Controllers\Ultimate\DailyactModel' not found
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->getdata()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

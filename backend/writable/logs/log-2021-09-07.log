@@ -1,0 +1,8 @@
+CRITICAL - 2021-09-07 21:59:48 --> unlink(public/assets/img/testimoni/thumbs/TTSK003.png): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/public_html/ba...', 510, Array)
+#1 /public_html/backend/app/Controllers/Career/TestimoniController.php(510): unlink('public/assets/i...')
+#2 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->hapusdata()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

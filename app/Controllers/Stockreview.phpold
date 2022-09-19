@@ -1,0 +1,981 @@
+<?php
+
+namespace App\Controllers;
+
+use App\Models\UserModel;
+use App\Models\NotificationModel;
+use App\Models\StockreviewModel;
+use CodeIgniter\Controller;
+
+class Stockreview extends BaseController {
+
+    public function __construct() {
+        $this->email = \Config\Services::email();
+        $this->ntf = new NotificationModel();
+        $this->usr = new UserModel();
+        $this->model = new StockreviewModel();
+        $this->db = db_connect();
+        $this->dbmonikasecret = \Config\Database::connect("tests");
+    }
+
+    public function index(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                // $url = "https://devmonika.panensaham.com/apimonikasecret/getapistock/".$valStockReview;
+                // $get_url = file_get_contents($url);
+                // $dataStart = json_decode($get_url);
+
+                $dataStart = $this->dbmonikasecret->query("SELECT *, 
+                d.period_1 fn_1, d.sig_period_1 sfn_1,
+                d.period_5 fn_5, d.sig_period_5 sfn_5,
+                d.period_10 fn_10, d.sig_period_10 sfn_10,
+                d.period_20 fn_20, d.sig_period_20 sfn_20,
+                d.ss_period_1 ev_1, d.ss_sig_period_1 sev_1,
+                d.ss_period_5 ev_5, d.ss_sig_period_5 sev_5,
+                d.ss_period_10 ev_10, d.ss_sig_period_10 sev_10,
+                d.ss_period_20 ev_20, d.ss_sig_period_20 sev_20,
+                ifnull(COUNT(CASE WHEN b.sig_rsi_14 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_sto_5_3 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_sto_rsi_14 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_macd_12_26 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_adx_14 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_cci_14 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_atr_14 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_obv_14 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_uo = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_mfi_14 = 'Buy' THEN 1 END),0)as total_buy_teknikal,
+                ifnull(COUNT(CASE WHEN b.sig_rsi_14 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_sto_5_3 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_sto_rsi_14 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_macd_12_26 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_adx_14 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_cci_14 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_atr_14 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_obv_14 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_uo = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN b.sig_mfi_14 = 'Sell' THEN 1 END),0)as total_sell_teknikal,
+                ifnull(COUNT(CASE WHEN c.sig_ma_5 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_10 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_20 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_50 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_100 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_200 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_5 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_10 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_20 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_50 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_100 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_200 = 'Buy' THEN 1 END),0)as total_buy_moving,
+                 ifnull(COUNT(CASE WHEN c.sig_ma_5 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_10 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_20 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_50 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_100 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ma_200 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_5 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_10 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_20 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_50 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_100 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN c.sig_ema_200 = 'Sell' THEN 1 END),0)as total_sell_moving,
+                ifnull(COUNT(CASE WHEN d.sig_period_1 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.sig_period_5 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.sig_period_10 = 'Buy' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.sig_period_20 = 'Buy' THEN 1 END),0)as total_buy_foreign,
+                ifnull(COUNT(CASE WHEN d.sig_period_1 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.sig_period_5 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.sig_period_10 = 'Sell' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.sig_period_20 = 'Sell' THEN 1 END),0)as total_sell_foreign,
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_1 = 'Accummulation' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_5 = 'Accummulation' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_10 = 'Accummulation' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_20 = 'Accummulation' THEN 1 END),0)as total_accu_effective,
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_1 = 'Distribution' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_5 = 'Distribution' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_10 = 'Distribution' THEN 1 END),0)+
+                ifnull(COUNT(CASE WHEN d.ss_sig_period_20 = 'Distribution' THEN 1 END),0)as total_dist_effective
+                FROM quotes a 
+                LEFT JOIN technical_indicators b ON b.code=a.code 
+                LEFT JOIN moving_averages c ON c.code=a.code 
+                LEFT JOIN foreign_nbs d ON d.code=a.code 
+                LEFT JOIN effective_value e ON e.code=a.code 
+                WHERE a.code='$valStockReview' AND b.timeframe='Daily' AND c.timeframe='Daily' AND d.timeframe='Daily' AND e.timeframe='Daily'")->getRow();
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_viewindex', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_viewindex', $data);
+                }  
+			}
+		}
+    }
+
+    public function daily($code){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistock/".$code;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($code == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $code, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view', $data);
+                }  
+			}
+		}
+    }
+
+    public function dailypost(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getVar('inputstockreview');
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistock/".$valStockReview;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view', $data);
+                }  
+			}
+		}
+    }
+
+    public function weekly($code){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockweekly/".$code;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($code == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockrevieww_view_weekly', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $code, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockrevieww_view_weekly', $data);
+                }  
+			}
+		}
+    }
+
+    public function weeklypost(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getVar('inputstockreview');
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockweekly/".$valStockReview;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($valStockReview); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockrevieww_view_weekly', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockrevieww_view_weekly', $data);
+                }  
+			}
+		}
+    }
+
+    public function hourly($code){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockhourly/".$code;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($code == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view_hourly', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $code, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view_hourly', $data);
+                }  
+			}
+		}
+    }
+
+    public function hourlypost(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getVar('inputstockreview');
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockhourly/".$valStockReview;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view_hourly', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view_hourly', $data);
+                }  
+			}
+		}
+    }
+
+    public function fivemin($code){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockfivemin/".$code;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($code == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view_fivemin', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $code, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view_fivemin', $data);
+                }  
+			}
+		}
+    }
+
+    public function fiveminpost(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getVar('inputstockreview');
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockfivemin/".$valStockReview;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view_fivemin', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view_fivemin', $data);
+                }  
+			}
+		}
+    }
+
+    public function fifteenmin($code){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockfifteenmin/".$code;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($code == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockrevieww_view_fifteenmin', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $code, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockrevieww_view_fifteenmin', $data);
+                }  
+			}
+		}
+    }
+
+    public function fifteenminpost(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getVar('inputstockreview');
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockfifteenmin/".$valStockReview;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($valStockReview); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockrevieww_view_fifteenmin', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockrevieww_view_fifteenmin', $data);
+                }  
+			}
+		}
+    }
+
+    public function thirtymin($code){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getGet('inputstockreview', FILTER_SANITIZE_STRING);
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockthirtymin/".$code;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($code == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view_thirtymin', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $code, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view_thirtymin', $data);
+                }  
+			}
+		}
+    }
+
+    public function thirtyminpost(){
+        if (!hassession('email')) {
+			return redirect()->to('/');
+		} else {
+			if($this->usr->checksessionuser(getsession('email'), getsession('sesskode'))){
+				$this->session->destroy();
+				return redirect()->to('/');
+			}else{
+                $this->usr->upusrlvl(getsession('email'));
+				$lvl	= $this->usr->getuserlvl(getsession('email'));
+                $ntf	= $this->ntf->getnotifserver(getsession('email'), $lvl);
+                $npy	= $this->ntf->getnotifpayment(getsession('email'), $lvl);
+                $cnt	= $this->ntf->getcount($ntf, $npy);
+
+                $bulan = [
+                    '01' => 'Januari',
+                    '02' => 'Februari',
+                    '03' => 'Maret',
+                    '04' => 'April',
+                    '05' => 'Mei',
+                    '06' => 'Juni',
+                    '07' => 'Juli',
+                    '08' => 'Agustus',
+                    '09' => 'September',
+                    '10' => 'Oktober',
+                    '11' => 'November',
+                    '12' => 'Desember',
+                ];
+
+                // var_dump($npy); die;
+
+                $valStockReview = $this->request->getVar('inputstockreview');
+
+                $url = "https://monika.panensaham.com/apimonikasecret/getapistockthirtymin/".$valStockReview;
+                $get_url = file_get_contents($url);
+                $dataStart = json_decode($get_url);
+
+                // echo json_encode($dataStart); die; 
+
+
+                if ($valStockReview == null) {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                    ];
+                    return view('stockreview/stockreview_view_thirtymin', $data);
+                } else {
+                    $data = [
+                        'title' => 'Stock Review',
+                        'ntf'	=> $ntf,
+                        'npy'	=> $npy,
+                        'cnt'	=> $cnt,
+                        'lvl'	=> $lvl,
+                        'bulan' => $bulan,
+                        'valStockReview' => $valStockReview, 
+                        'dataStart' => $dataStart,
+                    ];
+                    return view('stockreview/stockreview_view_thirtymin', $data);
+                }  
+			}
+		}
+    }
+    
+}

@@ -1,0 +1,171 @@
+
+.custom-ah-singup {
+    background-color: #55341D;
+    border: none;
+}
+
+.custom-ah-login {
+    background-color: wheat;
+    color: black;
+    border: none;
+}
+
+/* akhir nav */
+
+
+/* h5 */
+h4, h5 {
+    color: black;
+}
+
+.cilok::after{
+    content: '';
+    display: block;
+    border-bottom: 5px solid #EAA401;
+    width: 3%;
+    padding-bottom: 3px;
+}
+.cilor::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #EAA401;
+    width: 7%;
+    padding-bottom: 15px;
+}
+
+p{
+    font-size: 19px;
+    color: black;
+    margin-top: 20px;
+}
+.custem-p-ah{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.custem-p-customer-ah{
+    font-size: 12px;
+    color: darkgray;
+}
+
+i{
+    margin-right: 5px;
+}
+.gallery-ah li{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+
+}
+.gallery2-ah li{
+    width: 337px;
+    height: 278px;
+    overflow: hidden;
+    float: left;
+}
+.custem-img-ah{
+    width: 573px;
+    height: 299;
+}
+
+/* footer */
+.p {
+    color: black;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+  
+h6 {
+    color: black;
+    letter-spacing: 0, 5px;
+    margin: 10px 0;
+    text-align: left;
+    margin-top: -50px;
+}
+
+.segment-one ul {
+    margin: 0px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+}
+.segment-one ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.segment-two h5 {
+    color: black;
+}
+
+/* sosmet logo */
+.icon{
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.tombol{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border:1px solid #666;
+    margin: 10px;
+    border-radius: 90%;
+    box-sizing: 0 5px 15px -5px  #EAA401;
+    overflow: hidden;
+    position: relative;
+    color: #666;
+    margin-top: -10px;
+}
+
+.tombol i{
+    transition: 0.2s linear;
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 4px;
+}
+.tombol:hover i{
+    transform: scale(1.3);
+    color: #55341D;
+}
+.tombol::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -110px;
+    top: 90%;
+    transform: rotate(45deg);
+    background:  #EAA401;
+}
+.tombol:hover::before{
+    left: -10%;
+    top: -10%;
+    animation: aaa 0.7s;
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+.custem-ah-h6{
+    color: #fdc134;
+}
+  

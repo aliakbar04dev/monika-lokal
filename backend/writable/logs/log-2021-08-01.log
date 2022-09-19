@@ -1,0 +1,24 @@
+CRITICAL - 2021-08-01 03:39:22 --> unlink(public/assets/img/tutorial/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/public_html/ba...', 390, Array)
+#1 /public_html/backend/app/Controllers/Information/Tutorialcontroller.php(390): unlink('public/assets/i...')
+#2 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->hapusdata()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 03:39:29 --> unlink(public/assets/img/tutorial/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/public_html/ba...', 390, Array)
+#1 /public_html/backend/app/Controllers/Information/Tutorialcontroller.php(390): unlink('public/assets/i...')
+#2 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->hapusdata()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 03:41:43 --> unlink(public/assets/img/tutorial/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/public_html/ba...', 390, Array)
+#1 /public_html/backend/app/Controllers/Information/Tutorialcontroller.php(390): unlink('public/assets/i...')
+#2 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->hapusdata()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

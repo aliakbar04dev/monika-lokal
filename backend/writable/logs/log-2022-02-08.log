@@ -1,0 +1,18 @@
+CRITICAL - 2022-02-08 00:52:38 --> Class 'App\Controllers\Ultimate\DailyModel' not found
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->hapusdata()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-08 00:54:48 --> Class 'App\Controllers\Ultimate\DailyModelact' not found
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->hapusdata()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-08 01:14:19 --> Call to a member function initialize() on null
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->upload_image()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2021-08-09 04:46:14 --> Class 'App\Controllers\Career\VacancyModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\AppliedController->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\AppliedController))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 23:45:11 --> Class 'App\Controllers\Career\CategorycarModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\VacancyController->getdata()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\VacancyController))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

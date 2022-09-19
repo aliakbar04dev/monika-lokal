@@ -1,0 +1,84 @@
+CRITICAL - 2022-09-03 13:53:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\User.php(1640): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changeToken('TUSR1647147438')
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-03 13:56:17 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `t_user`...', Array, false)
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Imei.php(122): CodeIgniter\Model->update(Array, Array)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Imei->changeImei('TUSR1647147438')
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imei))
+#6 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-03 02:42:13 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-03 02:42:38 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-03 14:43:52 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, string given, called in C:\xampp\htdocs\dev-monika-ps\panenapi\system\Model.php on line 870
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Model.php(870): CodeIgniter\Model->doProtectFields('TUSR1647147438')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\User.php(1638): CodeIgniter\Model->update(Array, 'TUSR1647147438')
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changeToken('TUSR1647147438')
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-03 18:52:08 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:52:43 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:53:46 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:54:35 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:54:44 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:56:06 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:56:30 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:58:36 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 18:59:20 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 19:00:36 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 19:01:44 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-03 19:01:47 --> Cannot redeclare App\Controllers\User::changeToken()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

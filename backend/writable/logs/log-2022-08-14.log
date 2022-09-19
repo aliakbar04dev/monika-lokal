@@ -1,0 +1,42 @@
+CRITICAL - 2022-08-14 21:42:37 --> A non-numeric value encountered
+#0 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(204): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-14 21:42:51 --> A non-numeric value encountered
+#0 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(204): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-14 21:42:54 --> A non-numeric value encountered
+#0 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(204): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-14 21:42:58 --> A non-numeric value encountered
+#0 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(204): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-14 21:44:13 --> A non-numeric value encountered
+#0 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(204): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-14 21:44:19 --> A non-numeric value encountered
+#0 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(204): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

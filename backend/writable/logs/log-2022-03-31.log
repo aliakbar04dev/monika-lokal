@@ -1,0 +1,91 @@
+CRITICAL - 2022-03-31 01:32:50 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 151 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(151): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 01:32:50 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 151 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(151): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 01:32:50 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 151 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(151): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 01:32:50 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 151 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(151): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:03:53 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:03:53 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:04:49 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:04:49 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:04:49 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:05:06 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:05:06 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:05:06 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:05:06 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

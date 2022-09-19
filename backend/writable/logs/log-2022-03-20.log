@@ -1,0 +1,16 @@
+CRITICAL - 2022-03-20 18:43:31 --> unlink(public/assets/img/copyactarticle/1647565737_74e3ba0d8db620f0b57d.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(136): unlink()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->deleteGambar()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 18:46:25 --> unlink(public/assets/img/copyactarticle/1647565737_74e3ba0d8db620f0b57d.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(136): unlink()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->deleteGambar()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

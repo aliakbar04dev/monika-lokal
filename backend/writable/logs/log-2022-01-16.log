@@ -1,0 +1,10 @@
+CRITICAL - 2022-01-16 21:52:51 --> Unable to connect to the database.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#3 /public_html/monika.panensaham.com/backend/app/Controllers/Features/Ultimatecontroller.php(300): CodeIgniter\Model->update()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->perbaruidata()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

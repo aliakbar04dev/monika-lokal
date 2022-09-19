@@ -1,0 +1,70 @@
+CRITICAL - 2021-10-26 05:37:23 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Billing/InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Billing/Invoicecontroller.php(49): App\Models\Billing\InvoiceModel->get_datatables()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->ajax_list()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 05:37:43 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Features/JenistsaktiModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Features/Tsakticontroller.php(21): App\Models\Features\JenistsaktiModel->getkodejenistsakti()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 05:38:03 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Features/JenistsaktiModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Features/Tsakticontroller.php(21): App\Models\Features\JenistsaktiModel->getkodejenistsakti()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 05:38:28 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Features/JenistsaktiModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Features/Tsakticontroller.php(21): App\Models\Features\JenistsaktiModel->getkodejenistsakti()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 05:38:57 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Features/JenistsaktiModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Features/Tsakticontroller.php(21): App\Models\Features\JenistsaktiModel->getkodejenistsakti()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 05:39:21 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Features/JenistsaktiModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Features/Tsakticontroller.php(21): App\Models\Features\JenistsaktiModel->getkodejenistsakti()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 05:39:47 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Features/JenistsaktiModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Features/Tsakticontroller.php(21): App\Models\Features\JenistsaktiModel->getkodejenistsakti()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Tsakticontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

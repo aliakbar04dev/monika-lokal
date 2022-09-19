@@ -1,0 +1,60 @@
+CRITICAL - 2021-11-30 21:43:40 --> Undefined property: stdClass::$judul
+#0 /home/webdev/backend/app/Controllers/Information/Categorycontroller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 54, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Categorycontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Categorycontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:44:09 --> Undefined property: stdClass::$judul
+#0 /home/webdev/backend/app/Controllers/Information/Categorycontroller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 54, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Categorycontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Categorycontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:44:44 --> Undefined property: stdClass::$judul
+#0 /home/webdev/backend/app/Controllers/Information/Categorycontroller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 54, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Categorycontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Categorycontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:52:01 --> Undefined variable: m_cat
+#0 /home/webdev/backend/app/Controllers/Information/Categorycontroller.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 21, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Categorycontroller->index()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Categorycontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 23:52:59 --> Undefined index: kode_kategori_pengumuman
+#0 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 139, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->filterJenis()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 23:56:22 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/webdev/ba...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Info...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Info...')
+#3 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(19): spl_autoload_call('App\\Models\\Info...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->index()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 23:56:49 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in /home/webdev/backend/app/Models/Information/CategoryModel.php on line 31
+#0 /home/webdev/backend/app/Models/Information/CategoryModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere('kategori_pengum...', Array)
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(135): App\Models\Information\CategoryModel->selectCategory('JEPM001')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->filterJenis()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 23:59:00 --> Undefined index: kode_kategori_pengumuman
+#0 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 139, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->filterJenis()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

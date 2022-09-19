@@ -1,0 +1,263 @@
+CRITICAL - 2021-01-18 09:57:57 --> fopen(./public/assets/img/chart/test.gif): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(./public/...', '/home/webdev/ba...', 152, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(152): fopen('./public/assets...', 'w+')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 09:59:13 --> fopen(./public/assets/img/chart/test.gif): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(./public/...', '/home/webdev/ba...', 152, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(152): fopen('./public/assets...', 'w+')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:01:38 --> fopen(./public/assets/img/chart/): failed to open stream: Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(./public/...', '/home/webdev/ba...', 152, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(152): fopen('./public/assets...', 'w+')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:06:16 --> syntax error, unexpected '/'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/chart/getimg/')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/chart/getimg/')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 10:06:31 --> imagecreatefromstring(): Empty string or invalid image
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', '/home/webdev/ba...', 160, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(160): imagecreatefromstring('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:12:01 --> file_get_contents(http://192.168.13.11/formbotps/gambar/w.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('http://192.168....')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:13:43 --> file_get_contents(http://192.168.13.11/formbotps/gambar/w.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('http://192.168....')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:14:01 --> Too few arguments to function App\Controllers\Chart::getimg(), 0 passed in /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php on line 918 and exactly 1 expected
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-18 10:14:57 --> file_put_contents(./public/assets/img/chart/6005b4010ac46.gif): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/home/webdev/ba...', 161, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(161): file_put_contents('./public/assets...', '')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:22:08 --> file_get_contents(http://192.168.13.11/formbotps/gambar/w.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('http://192.168....')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 10:22:26 --> Undefined offset: 1
+#0 /home/webdev/backend/app/Controllers/Chart.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/webdev/ba...', 163, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 19:19:15 --> file_get_contents(http://192.168.13.11/formbotps/gambar/w.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('http://192.168....')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:22:19 --> file_get_contents(http://192.168.13.11/formbotps/gambar/w.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('http://192.168....')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:23:28 --> Undefined offset: 1
+#0 /home/webdev/backend/app/Controllers/Chart.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/webdev/ba...', 163, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 19:25:35 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 170, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(170): file_get_contents('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:26:22 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 170, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(170): file_get_contents('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:27:39 --> fopen(./public/assets/img/chart/tes.gif): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(./public/...', '/home/webdev/ba...', 158, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(158): fopen('./public/assets...', 'wb')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:28:45 --> Undefined offset: 1
+#0 /home/webdev/backend/app/Controllers/Chart.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/webdev/ba...', 166, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 19:31:31 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 /home/webdev/backend/app/Controllers/Chart.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/webdev/ba...', 172, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 19:31:59 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 /home/webdev/backend/app/Controllers/Chart.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/webdev/ba...', 172, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg('R0lGODlhZATQAuc...', 'w1P', 'isf', 'Ujv', 'Ga', ' 4SP qJf qANySA...', 'j1P', 'Hsf rjv Pa', '9zSP9XJf9VANxJA...', 'U1P xsf Ojv9ra', '9ISP8lJf4AANwAA...', 'U4', ' xx', ' Oq', '9rj', '9Ic', '8lV', '8AVdwASbkAPZYAM...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 19:41:28 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 153, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(153): file_get_contents('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:51:22 --> Request URI segment is out of range: 3
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/URI.php(515): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 /home/webdev/backend/app/Controllers/Chart.php(152): CodeIgniter\HTTP\URI->getSegment(3)
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:52:02 --> Request URI segment is out of range: 3
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/URI.php(515): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 /home/webdev/backend/app/Controllers/Chart.php(152): CodeIgniter\HTTP\URI->getSegment(3)
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:52:12 --> Request URI segment is out of range: 3
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/URI.php(515): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 /home/webdev/backend/app/Controllers/Chart.php(152): CodeIgniter\HTTP\URI->getSegment(3)
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:53:34 --> file_get_contents(test): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 157, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(157): file_get_contents('test')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja('test')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:54:24 --> file_get_contents(test): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 157, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(157): file_get_contents('test')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja('test')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:54:27 --> file_get_contents(getimg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 157, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(157): file_get_contents('getimg')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja('getimg')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:54:47 --> file_get_contents(getimg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 157, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(157): file_get_contents('getimg')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->aja('getimg')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 19:55:09 --> Undefined variable: img
+#0 /home/webdev/backend/app/Controllers/Chart.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 185, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 20:00:33 --> Undefined offset: 1
+#0 /home/webdev/backend/app/Controllers/Chart.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/webdev/ba...', 183, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 20:00:57 --> Undefined offset: 1
+#0 /home/webdev/backend/app/Controllers/Chart.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/webdev/ba...', 185, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 20:06:59 --> Undefined offset: 1
+#0 /home/webdev/backend/app/Controllers/Chart.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/webdev/ba...', 183, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 20:08:24 --> Use of undefined constant UPLOAD_DIR - assumed 'UPLOAD_DIR' (this will throw an Error in a future version of PHP)
+#0 /home/webdev/backend/app/Controllers/Chart.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/webdev/ba...', 182, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->getimg()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-18 20:24:56 --> syntax error, unexpected 'fuction' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Chart/showimg')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/Chart/showimg')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

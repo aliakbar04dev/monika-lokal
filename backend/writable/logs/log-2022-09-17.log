@@ -1,0 +1,7 @@
+CRITICAL - 2022-09-17 20:16:33 --> Undefined variable: document_id
+#0 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\app\Controllers\Information\Newscontroller.php(322): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp74\\htdo...', 322, Array)
+#1 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#2 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#3 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,74 @@
+CRITICAL - 2021-09-01 02:57:37 --> Undefined variable: m_cat
+#0 /home/webdev/backend/app/Controllers/Career/AppliedController.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 182, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\AppliedController->pilihdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\AppliedController))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 04:17:57 --> Undefined property: stdClass::$id_banner
+#0 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 42, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 04:18:07 --> Undefined property: stdClass::$id_banner
+#0 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 42, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 04:18:33 --> Undefined property: stdClass::$is_highligth
+#0 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 62, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 04:31:50 --> Class 'App\Controllers\Career\DepartmentcarModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->index()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-01 20:52:03 --> Could not move file phphXI10S to public/assets/img/testimoni/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phphXI10S', 'public/assets/i...', '')
+#1 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(225): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', 'TTSK002.jpg')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->simpandata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-01 20:53:10 --> File not found: public/assets/img/banner/TTSK002.jpg
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Files/File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/assets/i...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/BaseHandler.php(171): CodeIgniter\Files\File->__construct('public/assets/i...', true)
+#2 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(133): CodeIgniter\Images\Handlers\BaseHandler->withFile('public/assets/i...')
+#3 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(227): App\Controllers\Career\Testimonicontroller->compressImg('TTSK002.jpg')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 21:43:44 --> Undefined index: filename
+#0 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 457, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->perbaruigambar()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 21:43:49 --> Undefined index: filename
+#0 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 457, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->perbaruigambar()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 21:50:08 --> unlink(/backend/public/assets/img/testimoni/TTSK002.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/backend...', '/home/webdev/ba...', 459, Array)
+#1 /home/webdev/backend/app/Controllers/Career/TestimoniController.php(459): unlink('/backend/public...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Career\Testimonicontroller->perbaruigambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career\Testimonicontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

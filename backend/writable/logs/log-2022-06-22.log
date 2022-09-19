@@ -1,0 +1,27 @@
+CRITICAL - 2022-06-22 02:24:14 --> whereIn() expects $values to be of type array or closure
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Media/FiltermedModel.php(31): CodeIgniter\Database\BaseBuilder->whereIn()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Media/Videomednewcontroller.php(23): App\Models\Media\FiltermedModel->getkodefilternew()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomednewcontroller->index()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-22 02:24:16 --> whereIn() expects $values to be of type array or closure
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Media/FiltermedModel.php(31): CodeIgniter\Database\BaseBuilder->whereIn()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Media/Videomednewcontroller.php(23): App\Models\Media\FiltermedModel->getkodefilternew()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomednewcontroller->index()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-22 02:24:16 --> whereIn() expects $values to be of type array or closure
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Media/FiltermedModel.php(31): CodeIgniter\Database\BaseBuilder->whereIn()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Media/Videomednewcontroller.php(23): App\Models\Media\FiltermedModel->getkodefilternew()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomednewcontroller->index()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

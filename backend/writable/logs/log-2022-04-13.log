@@ -1,0 +1,64 @@
+CRITICAL - 2022-04-13 19:50:40 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 19:54:32 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 19:55:20 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 19:59:44 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:00:00 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 21:02:15 --> Undefined variable: totalTime
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Debug/Toolbar.php(498): include('/public_html/mo...')
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format()
+#3 /public_html/monika.panensaham.com/backend/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger()
+#7 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-13 22:05:20 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

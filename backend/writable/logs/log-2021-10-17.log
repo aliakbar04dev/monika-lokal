@@ -1,0 +1,10 @@
+CRITICAL - 2021-10-17 02:55:52 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/app/Models/Billing/InvoiceModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Controllers/Billing/Invoicecontroller.php(157): App\Models\Billing\InvoiceModel->get_datatables()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

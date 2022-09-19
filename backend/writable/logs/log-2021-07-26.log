@@ -1,0 +1,11 @@
+CRITICAL - 2021-07-26 06:31:26 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /public_html/backend/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /public_html/backend/app/Models/LoginModel.php(9): CodeIgniter\Model->find()
+#4 /public_html/backend/app/Controllers/Login.php(65): App\Models\LoginModel->login('admin@admin.com')
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->auth()
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,7 @@
+CRITICAL - 2021-12-01 00:50:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(135): App\Models\Information\CategoryModel->selectCategory('JEPM001')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->filterJenis()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

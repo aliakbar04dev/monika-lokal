@@ -1,0 +1,172 @@
+CRITICAL - 2021-01-31 02:16:44 --> Call to protected method App\Controllers\Api::myKey() from context 'App\Controllers\Banner'
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Banner->getBanner()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Banner))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:17:17 --> Call to private method App\Controllers\Api::myKey() from context 'App\Controllers\Banner'
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Banner->getBanner()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Banner))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:18:20 --> Call to private method App\Controllers\BaseController::myKey() from context 'App\Controllers\Banner'
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Banner->getBanner()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Banner))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:20:11 --> Call to a member function getValue() on null
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Api->userDetail()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:21:56 --> Call to a member function getValue() on null
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Api->userDetail()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:22:38 --> Call to a member function getValue() on null
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Api->userDetail()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:24:44 --> Call to undefined method App\Controllers\Banner::respondCreated()
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\Banner->getBanner()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Banner))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 02:39:39 --> syntax error, unexpected 'if' (T_IF)
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-01-31 02:50:23 --> Class 'App\Models\ContactusModel' not found
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\ContactUs->insert()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactUs))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 04:19:42 --> syntax error, unexpected ''alamat_email'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\xampp\htdocs\panenapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\panenapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 E:\xampp\htdocs\panenapi\app\Controllers\User.php(20): spl_autoload_call('App\\Models\\User...')
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(890): App\Controllers\User->__Construct()
+#5 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-31 04:30:37 --> Can't use function return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-31 06:58:57 --> syntax error, unexpected '$key' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\xampp\htdocs\panenapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\panenapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-31 20:05:22 --> Class 'App\Controllers\MediaModel' not found
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\FilterMedia->getVideo()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FilterMedia))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 20:05:45 --> Class 'App\Models\FilterMediaModel' not found
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\FilterMedia->getVideo()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FilterMedia))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 20:31:58 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPut()
+#0 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changephone()
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-31 21:41:17 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): md5(Array)
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-31 21:42:21 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): md5(Array, 0)
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-31 21:42:33 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): md5(Array, true)
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-31 21:42:46 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): md5(Array, false)
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-31 08:43:34 --> syntax error, unexpected '=', expecting ']'
+#0 E:\xampp\htdocs\panenapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\panenapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-31 21:43:45 --> Use of undefined constant raw_output - assumed 'raw_output' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-31 21:43:56 --> Use of undefined constant raw_output - assumed 'raw_output' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-31 21:45:17 --> Use of undefined constant raw_output - assumed 'raw_output' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-31 21:45:27 --> Use of undefined constant raw_output - assumed 'raw_output' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-31 21:45:35 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'E:\\xampp\\htdocs...', 258, Array)
+#1 E:\xampp\htdocs\panenapi\app\Controllers\User.php(258): md5(Array)
+#2 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(918): App\Controllers\User->changePassword('TUSR1612091784')
+#3 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 E:\xampp\htdocs\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

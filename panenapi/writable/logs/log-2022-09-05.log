@@ -1,0 +1,33 @@
+CRITICAL - 2022-09-05 08:08:19 --> Undefined variable: messaging
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-05 08:08:40 --> Undefined property: Kreait\Firebase\Messaging::$CloudMessage
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-05 08:20:30 --> Undefined variable: imageUrl
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-05 08:20:55 --> Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\vendor\kreait\firebase-php\src\Firebase\Exception\MessagingApiExceptionConverter.php(112): Kreait\Firebase\Exception\Messaging\AuthenticationError->withErrors(Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\vendor\kreait\firebase-php\src\Firebase\Exception\MessagingApiExceptionConverter.php(120): Kreait\Firebase\Exception\MessagingApiExceptionConverter->convertResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Exception\ClientException))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\vendor\kreait\firebase-php\src\Firebase\Exception\MessagingApiExceptionConverter.php(49): Kreait\Firebase\Exception\MessagingApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\ClientException))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\vendor\kreait\firebase-php\src\Firebase\Messaging\ApiClient.php(44): Kreait\Firebase\Exception\MessagingApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ClientException))
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\vendor\kreait\firebase-php\src\Firebase\Messaging.php(54): Kreait\Firebase\Messaging\ApiClient->send(Object(Kreait\Firebase\Messaging\Http\Request\SendMessage))
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(40): Kreait\Firebase\Messaging->send(Object(Kreait\Firebase\Messaging\CloudMessage))
+#6 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#7 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#8 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

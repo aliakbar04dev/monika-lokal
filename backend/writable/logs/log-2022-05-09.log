@@ -1,0 +1,51 @@
+CRITICAL - 2022-05-09 16:56:44 --> Column 'kode_kategori_pengumuman' in where clause is ambiguous
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/monika.panensaham.com/backend/app/Models/Information/NewsModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(46): App\Models\Information\NewsModel->get_datatables()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->ajax_list()
+#7 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-09 16:56:47 --> Column 'kode_kategori_pengumuman' in where clause is ambiguous
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/monika.panensaham.com/backend/app/Models/Information/NewsModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(46): App\Models\Information\NewsModel->get_datatables()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->ajax_list()
+#7 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-09 20:19:27 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 20:24:50 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 20:44:39 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

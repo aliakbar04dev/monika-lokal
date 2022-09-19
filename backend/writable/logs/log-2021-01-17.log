@@ -1,0 +1,86 @@
+CRITICAL - 2021-01-17 10:54:16 --> file_get_contents(https://ami.panensaham.com/gambar/1610893438.gif): failed to open stream: Connection timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('https://ami.pan...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 10:56:33 --> file_get_contents(https://ami.panensaham.com/gambar/1610893438.gif): failed to open stream: Connection timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('https://ami.pan...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 10:58:43 --> file_get_contents(https://ami.panensaham.com/gambar/1610893438.gif): failed to open stream: Connection timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('https://ami.pan...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 11:05:30 --> file_get_contents(https://ami.panensaham.com/gambar/1610893438.gif): failed to open stream: Connection timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('https://ami.pan...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 19:12:39 --> file_get_contents(https://ami.panensaham.com/gambar/1610893438.gif): failed to open stream: Connection timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('https://ami.pan...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 19:37:47 --> Class 'App\Controllers\DOMDocument' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->ayo()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-17 19:51:56 --> file_get_contents(http://192.168.13.11/formbotps/gambar/1610893438.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('http://192.168....')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 20:01:31 --> syntax error, unexpected '"/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Chart')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/Chart')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-17 20:04:16 --> syntax error, unexpected ''. $content .'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Chart')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('/Chart')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-17 20:09:59 --> file_get_contents(https://bot.panensaham.com/formbotps/gambar/w.gif): failed to open stream: Connection timed out
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 25, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(25): file_get_contents('https://bot.pan...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-17 20:11:41 --> file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/webdev/ba...', 24, Array)
+#1 /home/webdev/backend/app/Controllers/Chart.php(24): file_get_contents('https://192.168...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Chart->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

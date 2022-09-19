@@ -1,0 +1,129 @@
+CRITICAL - 2022-07-11 20:05:13 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:05:23 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:05:53 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:06:09 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(380): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->perbaruifile()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:06:09 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(380): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->perbaruifile()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:06:09 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(380): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->perbaruifile()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:06:33 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:08:36 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:12:24 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 20:12:53 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 21:07:05 --> unlink(public/assets/files/tabel_sakti/TSAK1107220701.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 21:07:23 --> unlink(public/assets/files/tabel_sakti/TSAK1107220712.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Controllers/Features/Tsakticontroller.php(427): unlink()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Tsakticontroller->hapusdata()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-11 22:08:46 --> Duplicate entry 'KMED1107220754' for key 'new_media.PRIMARY'
+#0 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/monika.panensaham.com/backend/app/Controllers/Media/Videomednewcontroller.php(217): CodeIgniter\Model->insert()
+#6 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomednewcontroller->simpandata()
+#7 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-11 22:33:03 --> Duplicate entry 'KMED1107220707' for key 'new_media.PRIMARY'
+#0 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/monika.panensaham.com/backend/app/Controllers/Media/Videomednewcontroller.php(217): CodeIgniter\Model->insert()
+#6 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Media\Videomednewcontroller->simpandata()
+#7 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-11 22:40:50 --> Trying to access array offset on value of type null
+#0 /var/www/html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /var/www/html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

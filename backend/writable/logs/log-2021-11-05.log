@@ -1,0 +1,10 @@
+CRITICAL - 2021-11-05 10:25:45 --> Unable to connect to the database.
+#0 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /public_html/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 /public_html/backend/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /public_html/backend/app/Controllers/MyApi.php(27): CodeIgniter\Model->insert(Array)
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\MyApi->index()
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyApi))
+#6 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

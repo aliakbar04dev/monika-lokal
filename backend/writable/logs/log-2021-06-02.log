@@ -1,0 +1,8 @@
+CRITICAL - 2021-06-02 03:55:42 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', '/public_html/ba...', 78, Array)
+#1 /public_html/backend/app/Controllers/Billing/Invoicecontroller.php(78): number_format('', 0, ',', '.')
+#2 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->ajax_list()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

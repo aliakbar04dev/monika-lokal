@@ -1,0 +1,24 @@
+CRITICAL - 2022-03-14 22:21:19 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 /home/webdev/backend/app/Controllers/Ultimate/Trailingclosedcontroller.php(415): CodeIgniter\Model->delete('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Trailingclosedcontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Trailingclosedcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-14 22:22:50 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 /home/webdev/backend/app/Controllers/Ultimate/Trailingclosedcontroller.php(415): CodeIgniter\Model->delete('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Trailingclosedcontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Trailingclosedcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-14 22:23:10 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 /home/webdev/backend/app/Controllers/Ultimate/Trailingclosedcontroller.php(415): CodeIgniter\Model->delete('')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Trailingclosedcontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Trailingclosedcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,18 @@
+CRITICAL - 2021-04-19 07:59:12 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /public_html/backend/app/Models/Package/PriceModel.php on line 45
+#0 /public_html/backend/app/Models/Package/PriceModel.php(45): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /public_html/backend/app/Models/Package/PriceModel.php(54): App\Models\Package\PriceModel->_get_datatables_query()
+#2 /public_html/backend/app/Controllers/Package/Pricecontroller.php(44): App\Models\Package\PriceModel->get_datatables()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Package\Pricecontroller->ajax_list()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Package\Pricecontroller))
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 07:59:24 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /public_html/backend/app/Models/Package/PriceModel.php on line 45
+#0 /public_html/backend/app/Models/Package/PriceModel.php(45): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 /public_html/backend/app/Models/Package/PriceModel.php(54): App\Models\Package\PriceModel->_get_datatables_query()
+#2 /public_html/backend/app/Controllers/Package/Pricecontroller.php(44): App\Models\Package\PriceModel->get_datatables()
+#3 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Package\Pricecontroller->ajax_list()
+#4 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Package\Pricecontroller))
+#5 /public_html/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /public_html/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

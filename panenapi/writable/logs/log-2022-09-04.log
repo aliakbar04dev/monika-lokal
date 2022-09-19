@@ -1,0 +1,96 @@
+CRITICAL - 2022-09-04 16:28:58 --> Property messages does not exist
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(21): Tatter\Firebase\Firebase->__get('messages')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 16:29:43 --> Property messages does not exist
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(21): Tatter\Firebase\Firebase->__get('messages')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 16:30:15 --> Unable to create the messaging service without a project ID
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\vendor\tatter\firebase\src\Firebase.php(86): Kreait\Firebase\Factory->createMessaging()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(21): Tatter\Firebase\Firebase->__get('messaging')
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 16:33:28 --> Call to undefined method App\Controllers\Notification::fromArray()
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-04 04:34:55 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-04 16:35:42 --> Call to undefined method Kreait\Firebase\Messaging::fromArray()
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-04 16:36:06 --> Property message does not exist
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(21): Tatter\Firebase\Firebase->__get('message')
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 16:36:32 --> Call to undefined method Kreait\Firebase\Messaging::fromArray()
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-04 16:39:15 --> Undefined property: Kreait\Firebase\Messaging::$notification
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 16:39:37 --> Call to undefined method Kreait\Firebase\Factory::messaging()
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(21): Tatter\Firebase\Firebase->__call('messaging', Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 16:39:49 --> Call to undefined method Kreait\Firebase\Messaging::fromArray()
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-04 16:42:45 --> Call to undefined method Kreait\Firebase\Messaging::createMessaging()
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-04 16:45:16 --> Class 'App\Controllers\CloudMessage' not found
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-04 16:45:39 --> Undefined property: Kreait\Firebase\Messaging::$CloudMessage
+#0 C:\xampp\htdocs\dev-monika-ps\panenapi\app\Controllers\Notifikasi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(918): App\Controllers\Notifikasi->getAuth()
+#2 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notifikasi))
+#3 C:\xampp\htdocs\dev-monika-ps\panenapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dev-monika-ps\panenapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

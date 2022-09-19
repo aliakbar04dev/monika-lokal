@@ -1,0 +1,103 @@
+.action .isian{
+    position: absolute;
+    background: #fff;
+    margin-top: 50px;
+    left: 46%;
+    transition: 0.5s;
+    width: 51%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+}
+.action .isian::before{
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: 16px;
+    width: 20px;
+    border-top: 1px solid #FFAA00;
+    border-left: 1px solid #FFAA00;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.action .isian.active{
+    visibility: visible;
+    opacity: 1;
+}
+.action .isian1{
+    position: absolute;
+    background: #fff;
+    margin-top: 50px;
+    left: 46%;
+    transition: 0.5s;
+    width: 51%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+}
+.action .isian1::before{
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: 16px;
+    width: 20px;
+    border-top: 1px solid #FFAA00;
+    border-left: 1px solid #FFAA00;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.action .isian1.active{
+    visibility: visible;
+    opacity: 1;
+}
+.action .isian2{
+    position: absolute;
+    background: #fff;
+    margin-top: 50px;
+    left: 46%;
+    transition: 0.5s;
+    width: 51%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+}
+.action .isian2::before{
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: 16px;
+    width: 20px;
+    border-top: 1px solid #FFAA00;
+    border-left: 1px solid #FFAA00;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.action .isian2.active{
+    visibility: visible;
+    opacity: 1;
+}
+.hor{
+    display: flex;
+    border: 1px solid #FFAA00;
+}
+.wrkun{
+    background-color: #FFAA00;
+    padding: 20px 20px;
+}
+.wrput{
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.waricon{
+    cursor: pointer;
+}
+.gotit{
+    padding: 2px 10px;
+    border-radius: 15px;
+    background-color: #FFAA00;
+    color: #fff!important;
+    cursor: pointer;
+}

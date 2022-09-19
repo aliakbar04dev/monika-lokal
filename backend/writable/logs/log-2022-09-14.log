@@ -1,0 +1,18 @@
+CRITICAL - 2022-09-14 03:06:38 --> Invalid file: view_logi.php
+#0 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_logi.php')
+#1 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_logi', Array, true)
+#2 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\app\Controllers\Login.php(21): view('view_logi')
+#3 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-14 03:06:39 --> Invalid file: view_logi.php
+#0 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_logi.php')
+#1 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_logi', Array, true)
+#2 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\app\Controllers\Login.php(21): view('view_logi')
+#3 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp74\htdocs\dev-monika-ps-lokal\backend\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

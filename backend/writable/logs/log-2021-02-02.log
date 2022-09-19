@@ -1,0 +1,573 @@
+CRITICAL - 2021-02-02 02:08:00 --> Class 'App\Controllers\Information\NewsModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 02:08:31 --> Class 'App\Controllers\Information\NewsModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 02:10:50 --> Undefined variable: category
+#0 /home/webdev/backend/app/Views/menuinformation/add_infotutorial.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 27, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(525): CodeIgniter\View\View->render('menuinformation...', NULL, true)
+#3 /home/webdev/backend/app/Views/menuinformation/view_infotutorial.php(65): CodeIgniter\View\View->include('menuinformation...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menuinformation...', Array, true)
+#6 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(16): view('menuinformation...')
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->index()
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#9 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-02 02:15:31 --> Class 'App\Controllers\Information\NewsModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->getdata()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 02:22:55 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/webdev/ba...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 02:23:10 --> {field} wajib diisi is not a valid rule.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('{field} wajib d...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('infotutorial_ju...', 'Kode tutorial', '', Array, Array)
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(127): CodeIgniter\Controller->validate(Array)
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 02:23:12 --> {field} wajib diisi is not a valid rule.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('{field} wajib d...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('infotutorial_ju...', 'Kode tutorial', '', Array, Array)
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(127): CodeIgniter\Controller->validate(Array)
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 02:43:14 --> Class 'App\Controllers\Information\NewsModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->perbaruidata()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 02:50:07 --> unlink(public/assets/img/tutorial/https://devbot.panensaham.com/backend/public/assets/img/tutorial/thumbs/TUTOR1612254699.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 423, Array)
+#1 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(423): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 02:52:23 --> Undefined variable: m_news
+#0 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 425, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->hapusdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 02:53:14 --> unlink(public/assets/img/tutorial/TUTOR1612254699.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 423, Array)
+#1 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(423): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 03:38:39 --> Class 'App\Controllers\Information\NewsModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->perbaruigambar()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 03:39:26 --> Undefined index: gambar
+#0 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 359, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->perbaruigambar()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 03:44:11 --> Undefined index: gambar
+#0 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 359, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->perbaruigambar()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 03:44:21 --> Undefined index: gambar
+#0 /home/webdev/backend/app/Controllers/Information/Tutorialcontroller.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 359, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Tutorialcontroller->perbaruigambar()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Tutorialcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 08:25:21 --> Undefined property: stdClass::$username
+#0 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 42, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 08:25:41 --> Undefined property: stdClass::$username
+#0 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 42, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 09:28:08 --> Unknown column 'full_name' in 'where clause'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Account/Master/ReferalModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(33): App\Models\Account\Master\ReferalModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 09:28:43 --> Unknown column 'full_name' in 'where clause'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Account/Master/ReferalModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(33): App\Models\Account\Master\ReferalModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 09:28:45 --> Unknown column 'full_name' in 'where clause'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Account/Master/ReferalModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(33): App\Models\Account\Master\ReferalModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 09:28:51 --> Unknown column 'full_name' in 'where clause'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Account/Master/ReferalModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(33): App\Models\Account\Master\ReferalModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 09:30:06 --> Unknown column 'full_name' in 'where clause'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Account/Master/ReferalModel.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Account/Master/Referalcontroller.php(33): App\Models\Account\Master\ReferalModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Master\Referalcontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Master\Referalcontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 09:50:40 --> Class 'App\Controllers\Features\ReferalModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 09:56:02 --> Class 'App\Controllers\Features\ReferalModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 09:56:14 --> Class 'App\Controllers\Features\ReferalModel' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-02 09:56:37 --> Undefined property: stdClass::$nama
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 50, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 10:04:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(60): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:13:32 --> Unknown column 'p.reward_poin' in 'field list'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:15:12 --> Unknown column 't_poin.kode_referal' in 'on clause'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:16:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%s%' ESCAPE '!' 
+ )
+ORDER BY `kode_referal` ASC
+ LIMIT 10' at line 8
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:16:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%s%' ESCAPE '!' 
+ )
+ORDER BY `kode_referal` ASC
+ LIMIT 10' at line 8
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:17:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%ss%' ESCAPE '!' 
+ )
+ORDER BY `kode_referal` ASC
+ LIMIT 10' at line 8
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:18:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%ss%' ESCAPE '!' 
+ )
+ORDER BY `kode_referal` ASC
+ LIMIT 500' at line 8
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%ss%' ESCAPE '!' 
+ )
+ORDER BY `kode_referal` ASC
+ LIMIT 250' at line 8
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:18:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%ss%' ESCAPE '!' 
+ )
+ORDER BY `kode_referal` ASC
+ LIMIT 250, 250' at line 8
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `m_refer...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m_refer...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m_refer...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `m_refer...', Array, false)
+#4 /home/webdev/backend/app/Models/Features/PoinModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-02 10:24:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(65): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:24:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(65): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:25:18 --> Call to a member function orderBy() on array
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(65): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:27:39 --> Call to a member function orderBy() on array
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(64): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:28:47 --> Call to a member function orderBy() on array
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(64): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:29:23 --> Call to a member function orderBy() on array
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(64): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 10:36:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(30): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 10:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(30): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 10:38:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(30): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 10:38:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(30): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 10:55:03 --> Incorrect number of arguments for PROCEDURE panen_saham.proc_viewpoin; expected 2, got 1
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('call proc_viewp...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('call proc_viewp...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('call proc_viewp...')
+#3 /home/webdev/backend/app/Models/Features/PoinModel.php(22): CodeIgniter\Database\BaseConnection->query('call proc_viewp...')
+#4 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(30): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-02 10:55:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(79): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 19:16:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(79): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 19:16:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(79): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(33): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 19:28:46 --> FUNCTION panen_saham.proc_viewpoin does not exist
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT proc_vie...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT proc_vie...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT proc_vie...')
+#3 /home/webdev/backend/app/Models/Features/PoinModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT proc_vie...')
+#4 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(17): App\Models\Features\PoinModel->getData()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->index()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-02 19:56:40 --> Undefined variable: all_poin
+#0 /home/webdev/backend/app/Views/menufeatures/view_poin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 60, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#3 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(23): view('menufeatures/vi...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->index()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 19:57:13 --> Call to a member function orderBy() on array
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(78): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(40): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 19:58:23 --> Call to a member function orderBy() on array
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(78): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(40): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 19:59:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(78): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(40): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 20:02:56 --> Use of undefined constant table - assumed 'table' (this will throw an Error in a future version of PHP)
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/webdev/ba...', 30, Array)
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 20:10:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 20:10:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 20:12:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 20:21:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 20:22:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/webdev/ba...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Feat...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Feat...')
+#3 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): spl_autoload_call('App\\Models\\Feat...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-02 20:22:38 --> Undefined variable: db
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 48, Array)
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(37): App\Models\Features\PoinModel->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 20:23:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(78): App\Models\Features\PoinModel->_get_datatables_query()
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(40): App\Models\Features\PoinModel->get_datatables()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 20:41:39 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, object given, called in /home/webdev/backend/app/Controllers/Features/Poincontroller.php on line 38
+#0 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(38): CodeIgniter\Model->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 22:23:10 --> syntax error, unexpected ';', expecting ')'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/webdev/ba...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

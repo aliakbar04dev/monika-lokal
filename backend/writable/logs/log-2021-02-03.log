@@ -1,0 +1,31 @@
+CRITICAL - 2021-02-03 01:35:19 --> Undefined variable: all_poin
+#0 /home/webdev/backend/app/Views/menufeatures/view_detailpoin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 57, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#3 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(68): view('menufeatures/vi...', Array)
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->detaildata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 01:35:36 --> Undefined property: stdClass::$nama
+#0 /home/webdev/backend/app/Views/menufeatures/view_detailpoin.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 63, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#3 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(68): view('menufeatures/vi...', Array)
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->detaildata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 01:42:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ADM01'', ''01-02-2021' 00:00:00', ''03-02-2021' 23:59:59')' at line 1
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('call proc_viewd...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('call proc_viewd...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('call proc_viewd...')
+#3 /home/webdev/backend/app/Models/Features/PoinModel.php(21): CodeIgniter\Database\BaseConnection->query('call proc_viewd...')
+#4 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(63): App\Models\Features\PoinModel->getDetailData(''ADM01'', ''01-02-2021'', ''03-02-2021'')
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->detaildata()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,156 @@
+CRITICAL - 2022-04-17 19:39:03 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 19:47:37 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Ultimate/DailyactModel.php(51): App\Models\Ultimate\DailyactModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Ultimate/Dailyactcontroller.php(33): App\Models\Ultimate\DailyactModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Dailyactcontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 20:21:38 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 21:25:36 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(55): App\Models\Information\BursaemitenModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 21:25:41 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(55): App\Models\Information\BursaemitenModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 21:26:01 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(55): App\Models\Information\BursaemitenModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 21:29:43 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(55): App\Models\Information\BursaemitenModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 21:40:47 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(55): App\Models\Information\BursaemitenModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 22:06:28 --> Column 'kode_kategori_pengumuman' in order clause is ambiguous
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#7 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 22:06:32 --> Column 'kode_kategori_pengumuman' in order clause is ambiguous
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#7 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 22:07:04 --> Column 'kode_jenis_pengumuman' in order clause is ambiguous
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /public_html/monika.panensaham.com/backend/app/Models/Information/BursaemitenModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(48): App\Models\Information\BursaemitenModel->get_datatables()
+#6 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->ajax_list()
+#7 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 22:23:41 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 22:23:55 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 22:23:55 --> Too few arguments to function App\Models\Information\CategoryModel::__construct(), 0 passed in /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php on line 160 and exactly 1 expected
+#0 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Bursaemitencontroller.php(160): App\Models\Information\CategoryModel->__construct()
+#1 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Bursaemitencontroller->filterJenis()
+#2 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 22:56:06 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 23:04:12 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 23:09:35 --> Trying to access array offset on value of type null
+#0 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /public_html/monika.panensaham.com/backend/app/Models/Billing/InvoiceModel.php(57): App\Models\Billing\InvoiceModel->_get_datatables_query()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Billing/Invoicecontroller.php(160): App\Models\Billing\InvoiceModel->get_datatables()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

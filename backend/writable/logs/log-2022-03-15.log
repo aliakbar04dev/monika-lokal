@@ -1,0 +1,100 @@
+CRITICAL - 2022-03-15 02:26:08 --> Undefined index: kode_dailyact
+#0 /home/webdev/backend/app/Controllers/Ultimate/Trailingactcontroller.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 224, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Trailingactcontroller->pilihdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Trailingactcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 02:51:43 --> Could not move file phpjBJgvs to public/assets/img/dailyarticle/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpjBJgvs', 'public/assets/i...', '')
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1647330703_62eb...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->uploadGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 03:08:51 --> Could not move file phpcPhQup to public/assets/img/dailyarticle/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpcPhQup', 'public/assets/i...', '')
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1647331731_b82c...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->uploadGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 03:49:28 --> Could not move file phpB9nYoZ to public/assets/img/dailyarticle/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpB9nYoZ', 'public/assets/i...', '')
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1647334168_87aa...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->uploadGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 03:58:25 --> Could not move file php2QrFre to public/assets/img/dailyarticle/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php2QrFre', 'public/assets/i...', '')
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1647334705_c4c9...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->uploadGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 13:03:06 --> unlink(public/assets/img/copyactarticle/1647367005_0a1b310f43896f773c33.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 138, Array)
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(138): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->deleteGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 13:42:22 --> unlink(public/assets/img/copyactarticle/1647369218_10849a417b832bd6d825.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 138, Array)
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(138): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->deleteGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 13:42:56 --> unlink(public/assets/img/copyactarticle/1647369218_10849a417b832bd6d825.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 138, Array)
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(138): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->deleteGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 13:48:37 --> unlink(public/assets/img/copyactarticle/1647369882_e0e6db8207b8ce7aec87.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 138, Array)
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(138): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->deleteGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 13:49:58 --> unlink(public/assets/img/copyactarticle/1647369882_e0e6db8207b8ce7aec87.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 138, Array)
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(138): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->deleteGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 22:53:46 --> Undefined variable: isactive
+#0 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(290): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 290, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->perbaruidata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 22:54:15 --> Undefined variable: isactive
+#0 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(290): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 290, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->perbaruidata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 22:55:17 --> Undefined variable: isactive
+#0 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(290): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 290, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->perbaruidata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

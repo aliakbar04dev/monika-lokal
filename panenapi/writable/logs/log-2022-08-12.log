@@ -1,0 +1,260 @@
+CRITICAL - 2022-08-12 20:29:01 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/User.php(238): CodeIgniter\Model->first()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\User->getProfile()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:29:01 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:29:01 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:35:38 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/User.php(238): CodeIgniter\Model->first()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\User->getProfile()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:20 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Pengumuman.php(54): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Pengumuman->getCategoryNews()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:20 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:20 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 20:55:20 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/app/Models/StockWatchlistModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Apistockreview.php(1250): App\Models\StockWatchlistModel->getDataTes()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Apistockreview->getWatchlist()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:17 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:21 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:21 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:24 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:24 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:27 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:27 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:30 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:33 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:33 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(134): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getPaymentNotif()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-12 21:05:36 --> Unable to connect to the database.
+#0 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/monika.panensaham.com/panenapi/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/monika.panensaham.com/panenapi/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/monika.panensaham.com/panenapi/app/Controllers/Notification.php(88): CodeIgniter\Model->find()
+#4 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(918): App\Controllers\Notification->getRecentBroadcast()
+#5 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/monika.panensaham.com/panenapi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/monika.panensaham.com/panenapi/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

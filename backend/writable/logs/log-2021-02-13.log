@@ -1,0 +1,108 @@
+CRITICAL - 2021-02-13 00:12:54 --> Undefined variable: msg
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 167, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 00:23:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::WHERE()
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(36): App\Models\Billing\InvoiceModel->get_datatables()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 00:23:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::WHERE()
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(36): App\Models\Billing\InvoiceModel->get_datatables()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 00:49:44 --> Undefined variable: msg
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 176, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 00:52:18 --> Undefined variable: msg
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 198, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 00:54:22 --> Undefined variable: msg
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 200, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->filterdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 04:58:04 --> Call to undefined method App\Models\Billing\InvoiceModel::findCustom
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(214): CodeIgniter\Model->__call('findCustom', Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->proses()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 04:58:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(214): App\Models\Billing\InvoiceModel->findCustom('2021-02-01', '2021-02-13')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->proses()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 04:58:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(214): App\Models\Billing\InvoiceModel->findCustom('2021-02-01', '2021-02-13')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->proses()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 04:59:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /home/webdev/backend/app/Controllers/Billing/Invoicecontroller.php(214): App\Models\Billing\InvoiceModel->getDataFilter('2021-02-01', '2021-02-13')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Billing\Invoicecontroller->proses()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Billing\Invoicecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 05:36:30 --> Invalid file: menubilling/export_featurespoin.php
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menubilling/exp...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(525): CodeIgniter\View\View->render('menubilling/exp...', NULL, true)
+#2 /home/webdev/backend/app/Views/menufeatures/view_poin.php(111): CodeIgniter\View\View->include('menubilling/exp...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(25): view('menufeatures/vi...', Array)
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->index()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-13 05:39:33 --> Invalid file: menubilling/export_poin.php
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menubilling/exp...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(525): CodeIgniter\View\View->render('menubilling/exp...', NULL, true)
+#2 /home/webdev/backend/app/Views/menufeatures/view_poin.php(111): CodeIgniter\View\View->include('menubilling/exp...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#5 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(25): view('menufeatures/vi...', Array)
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->index()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-13 05:48:30 --> Undefined variable: stdate
+#0 /home/webdev/backend/app/Models/Features/PoinModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 28, Array)
+#1 /home/webdev/backend/app/Controllers/Features/Poincontroller.php(79): App\Models\Features\PoinModel->getDataFilter('2021-02-01', '2021-02-13')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->proses()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-13 05:49:10 --> Class 'App\Controllers\Features\fill' not found
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Poincontroller->proses()
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Poincontroller))
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

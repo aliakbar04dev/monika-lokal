@@ -1,0 +1,93 @@
+CRITICAL - 2022-01-15 05:11:13 --> Undefined variable: jenis_tsakti
+#0 /home/webdev/backend/app/Views/menufeatures/add_tsakti.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 28, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(525): CodeIgniter\View\View->render('menufeatures/ad...', NULL, true)
+#3 /home/webdev/backend/app/Views/menufeatures/view_ultimate.php(67): CodeIgniter\View\View->include('menufeatures/ad...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#6 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(24): view('menufeatures/vi...')
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->index()
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#9 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-15 05:11:53 --> syntax error, unexpected '?>'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#1 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(24): view('menufeatures/vi...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-15 05:11:55 --> syntax error, unexpected '?>'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#1 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(24): view('menufeatures/vi...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->index()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-15 05:12:28 --> Undefined variable: jenis_tsakti
+#0 /home/webdev/backend/app/Views/menufeatures/add_tsakti.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 28, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(525): CodeIgniter\View\View->render('menufeatures/ad...', NULL, true)
+#3 /home/webdev/backend/app/Views/menufeatures/view_ultimate.php(67): CodeIgniter\View\View->include('menufeatures/ad...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/webdev/ba...')
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('menufeatures/vi...', Array, true)
+#6 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(24): view('menufeatures/vi...')
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->index()
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#9 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-15 05:15:09 --> Undefined property: stdClass::$judul_fitur
+#0 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 73, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 05:15:22 --> Undefined property: stdClass::$judul_fitur
+#0 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/webdev/ba...', 73, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->ajax_list()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 08:13:18 --> syntax error, unexpected ')'
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/webdev/ba...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-15 10:03:05 --> syntax error, unexpected 'str_pad' (T_STRING)
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/webdev/ba...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-15 10:03:23 --> Undefined variable: m_tsakti
+#0 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 99, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->getdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 10:32:09 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-15 11:08:40 --> Undefined variable: abbr
+#0 /home/webdev/backend/app/Controllers/Features/Ultimatecontroller.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/webdev/ba...', 296, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Features\Ultimatecontroller->perbaruidata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Features\Ultimatecontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

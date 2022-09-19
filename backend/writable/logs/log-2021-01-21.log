@@ -1,0 +1,169 @@
+CRITICAL - 2021-01-21 08:53:14 --> Table 'panen_saham.m_fitur_paket' doesn't exist
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Package/FeatureModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Package/Featurecontroller.php(43): App\Models\Package\FeatureModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Package\Featurecontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Package\Featurecontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-21 08:58:23 --> Call to undefined method App\Models\Information\CategoryModel::getkodecategory
+#0 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(23): CodeIgniter\Model->__call('getkodecategory', Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->index()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 08:59:02 --> Call to undefined method App\Models\Information\TypeModel::getkodetype
+#0 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(24): CodeIgniter\Model->__call('getkodetype', Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->index()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 09:01:35 --> Could not move file phpewGoTP to ./public/assets/img/news/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpewGoTP', './public/assets...', '')
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(193): CodeIgniter\HTTP\Files\UploadedFile->move('./public/assets...', 'PENG003.png')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 09:04:53 --> chmod(): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/home/webdev/ba...', 353, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(353): chmod('./public/assets...', 420)
+#2 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(123): CodeIgniter\Images\Handlers\GDHandler->save('./public/assets...', 75)
+#3 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(194): App\Controllers\Information\Newscontroller->compressImg('PENG003.png')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 09:05:51 --> chmod(): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/home/webdev/ba...', 353, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(353): chmod('./public/assets...', 420)
+#2 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(123): CodeIgniter\Images\Handlers\GDHandler->save('./public/assets...', 75)
+#3 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(194): App\Controllers\Information\Newscontroller->compressImg('PENG003.png')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 09:12:03 --> chmod(): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/home/webdev/ba...', 353, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(353): chmod('./public/assets...', 420)
+#2 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(123): CodeIgniter\Images\Handlers\GDHandler->save('./public/assets...', 75)
+#3 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(194): App\Controllers\Information\Newscontroller->compressImg('PENG003.png')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 09:18:51 --> Could not move file phpUQyoK7 to ./public/assets/img/news/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpUQyoK7', './public/assets...', '')
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(193): CodeIgniter\HTTP\Files\UploadedFile->move('./public/assets...', 'PENG003.png')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 09:25:36 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/home/webdev/ba...', 212, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(212): mkdir('/home/webdev/ba...', 511, true)
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('/home/webdev/ba...')
+#3 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(194): CodeIgniter\HTTP\Files\UploadedFile->move('/home/webdev/ba...', 'PENG003.png')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 09:29:44 --> Could not move file phpQlpE7p to /home/webdev/backend/writable/uploads/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpQlpE7p', '/home/webdev/ba...', '')
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(194): CodeIgniter\HTTP\Files\UploadedFile->move('/home/webdev/ba...', 'PENG003.png')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 09:31:03 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(333): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(123): CodeIgniter\Images\Handlers\GDHandler->save('./public/assets...', 75)
+#2 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(195): App\Controllers\Information\Newscontroller->compressImg('PENG003.png')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-21 09:33:23 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(333): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(125): CodeIgniter\Images\Handlers\GDHandler->save('/home/webdev/ba...', 75)
+#2 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(197): App\Controllers\Information\Newscontroller->compressImg('PENG003.png')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-21 09:40:49 --> unlink(./public/assets/img/news/PENG003.png): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', '/home/webdev/ba...', 455, Array)
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(455): unlink('./public/assets...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 09:42:12 --> chmod(): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/home/webdev/ba...', 353, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(353): chmod('public/assets/i...', 420)
+#2 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(124): CodeIgniter\Images\Handlers\GDHandler->save('public/assets/i...', 75)
+#3 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(197): App\Controllers\Information\Newscontroller->compressImg('PENG003.png')
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#5 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 09:46:11 --> unlink(./public/assets/img/news/thumbs/PENG004.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', '/home/webdev/ba...', 394, Array)
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(394): unlink('./public/assets...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->perbaruigambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 09:52:03 --> unlink(public/assets/img/news/thumbs/PENG003.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 456, Array)
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(456): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 09:52:37 --> unlink(public/assets/img/news/PENG003.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', '/home/webdev/ba...', 455, Array)
+#1 /home/webdev/backend/app/Controllers/Information/Newscontroller.php(455): unlink('public/assets/i...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->hapusdata()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information\Newscontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 10:09:24 --> Table 'panen_saham.m_fitur_paket' doesn't exist
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/webdev/backend/app/Models/Package/FeatureModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webdev/backend/app/Controllers/Package/Featurecontroller.php(43): App\Models\Package\FeatureModel->get_datatables()
+#6 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Package\Featurecontroller->ajax_list()
+#7 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Package\Featurecontroller))
+#8 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-21 10:13:11 --> Undefined index: keterangan
+#0 /home/webdev/backend/app/Controllers/Account/Userlevelcontroller.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/webdev/ba...', 206, Array)
+#1 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Account\Userlevelcontroller->pilihdata()
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account\Userlevelcontroller))
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

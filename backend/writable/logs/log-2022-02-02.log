@@ -1,0 +1,36 @@
+CRITICAL - 2022-02-02 20:34:37 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(322): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(150): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(223): App\Controllers\Information\Newscontroller->compressImg()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 20:34:41 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(322): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(150): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(223): App\Controllers\Information\Newscontroller->compressImg()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 20:34:55 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(322): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(150): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(223): App\Controllers\Information\Newscontroller->compressImg()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 20:39:47 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php(333): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(150): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /public_html/monika.panensaham.com/backend/app/Controllers/Information/Newscontroller.php(223): App\Controllers\Information\Newscontroller->compressImg()
+#3 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Information\Newscontroller->simpandata()
+#4 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /public_html/monika.panensaham.com/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /public_html/monika.panensaham.com/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,8 @@
+CRITICAL - 2022-03-07 03:07:27 --> Could not move file phpc8z8Hn to public/assets/img/dailyarticle/ ()
+#0 /home/webdev/backend/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpc8z8Hn', 'public/assets/i...', '')
+#1 /home/webdev/backend/app/Controllers/Ultimate/Copyactcontroller.php(127): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1646644047_0f52...')
+#2 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ultimate\Copyactcontroller->uploadGambar()
+#3 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ultimate\Copyactcontroller))
+#4 /home/webdev/backend/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/webdev/backend/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
